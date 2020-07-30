@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dicoding Submission Trisna's Website Portofolio</title>
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="assets/style/quotestyle.css">
+        <link rel="stylesheet" href="assets/style/media-query.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <div class="maintitle">
+                <h1>Welcome to My Portofolio Page</h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#certificate">Certificate Accomplishments</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <div id="summary" class="flex-container-column">
+                    <div class="flex-container-row">
+                        <div class="profile photo">
+                            <img src="assets/image/Capture.PNG" alt="profile">
+                        </div>
+                        <div class="profile summary">
+                            <h2>Nur Trisna Hidayat</h2>
+                            <p>Graduate from an associate degree in GIS and Remote Sensing from Universitas Gadjah Mada. 
+                                Familiar with many GIS implementation to address land based problems. 
+                                Love to learn new skills related with information technologies. 
+                                Highly motivated, full of curiousity, love to work as a team but also being able to work independently. 
+                                Lately I've been learning data visualization, data analysis, and data manipulation using Python and also I'm learning website development. It is fun !!!</p>
+                        </div>
+                    </div>
+                    <div id="skilltitle">SKILLS</div>
+                    <div class="flex-container-row">
+                        <div class="skill">
+                            <h3>GIS</h3>
+                            <img src="assets/image/GIS.jpg" class="featured-skill" alt="GIS">
+                            <p>- ArcGIS - Quantum GIS - Image Processing - Remote Sensing - Transformation Index - Site Selection -</p>
+                            <h4>Level : Advanced</h4>
+                        </div>
+                        <div class="skill">
+                            <h3>Python</h3>
+                            <img src="assets/image/python.jpg" class="featured-skill" alt="Python">
+                            <p>- Data visualization - Data Manipulation - Pandas - Matplotlib - Seaborn - Numpy -</p>
+                            <h4>Level : Intermediate</h4>
+                        </div>
+                        <div class="skill">
+                            <h3>Database</h3>
+                            <img src="assets/image/database.jpg" class="featured-skill" alt="Database">
+                            <p>- SQL - RDBMS - Data Mining - Geodatabase -</p>
+                            <h4>Level : Intermediate</h4>
+                        </div>
+                        <div class="skill">
+                            <h3>Web Dev</h3>
+                            <img src="assets/image/webdev.jpg" class="featured-skill" alt="Website">
+                            <p>- HTML - CSS - Javascript -</p>
+                            <h4>Level : Beginner</h4>
+                        </div>
+                    </div>
+                </div>
+                <article id="education">
+                    <h2>Education</h2>
+                    <p id="edu">Associate of Applied Science in GIS and Remote Sensing, Universitas Gadjah Mada</p>
+                    <p>Here I learnt about science of geography in general such as regional geography, metheorology and climatology, hidrology, geomorphology. 
+                        I also learnt about land measurement and land surveying using many tools. For more specific courses, I learnt math, 
+                        fundamental computer programming, databases, remote sensing, GIS and its implementation in marine, urban planning, land resources, and disaster.</p>
+                </article>
+                <article id="experience">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>Local Individual Contractor - UNDP Indonesia
+                            <p id="loc">Jakarta, Jan 2019 - Jun 2019</p>
+                        </li>
+                        <li>GIS Operator - Ministry of Environtment and Forestry
+                            <p id="loc">Bogor, Feb 2018 - Dec 2018</p>
+                        </li>
+                        <li>Laboratory Assistant for Data Analysis and Spatial Modelling - RS GIS Department, Gadjah Mada University
+                            <p id="loc">Yogyakarta, Sep 2017 - Dec 2017</p>
+                        </li>
+                        <li>Student Intern - Ministry of Marine Affairs and Fisheries
+                            <p id="loc">Jakarta, Jan 2017 - Mar 2017</p>
+                        </li>
+                    </ul>
+                </article>
+                <article id="certificate">
+                    <div id="certitle">
+                        <p>Certificate Accomplishments</p>
+                    </div>
+                    <div id="cerlist">
+                        <ul>
+                            <li>DataCamp.com
+                                <ul>
+                                    <li>Data Science with Python - Career Track</li>
+                                    <li>Intermediate SQL Server</li>
+                                    <li>Introduction to Relational Database in SQL</li>
+                                    <li>Database Design</li>
+                                    <li>Functions for Manipulation Data in SQL</li>
+                                </ul>
+                            </li>
+                            <li>SoloLearn
+                                <ul>
+                                    <li>Java Tutorial course</li>
+                                    <li>SQL Tutorial</li>
+                                </ul>
+                            </li>
+                            <li>Coursera
+                                <ul>
+                                    <li>Open Source Tool for Data Science</li>
+                                    <li>Data Science Methodology</li>
+                                    <li>Python for Data Science and AI</li>
+                                </ul>
+                            </li>
+                            <li>Dicoding Academy
+                                <ul>
+                                    <li>Java Fundamental</li>
+                                    <li>Android Development for Beginner</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>                   
+                </article>
+                <article id="quotegenerator">
+                    <h1>Grab your today's quote</h1>
+                    <div id="quoteDisplay"></div>
+                    <div id="authorDisplay"></div>
+                    <button onclick="newQuote()">Get a Quote</button>
+                </article>
+            </div>
+            <aside class="side">
+                <div class="aside-container-column">
+                    <div>
+                        <h3>Statistic</h3>
+                    </div>
+                    <div class="stat">
+                        <p>Number of visitors :</p>
+                        <p id="user">207</p>
+                    </div>
+                    <div class="stat">
+                        <p>Number of likes :</p>
+                        <p id="recap">97</p>
+                    </div>
+                    <div>
+                        <h5>Give me like</h5>
+                        <img src="assets/style/like.jpg" id="like" alt="like">
+                    </div>
+                </div>
+                <div class="aside-container-column">
+                    <div class="soc">
+                        <h3>Find me on</h3>
+                    </div>
+                    <div class="soc button" id="linkedin">
+                        <img src="assets/style/linkedin.png" alt="linkedin">
+                    </div>
+                    <div class="soc button" id="instagram">
+                        <img src="assets/style/instagram.jpg" alt="instagram">
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <p>This page was created as a submission of Dicoding Academy course : Website Development for Beginner</p>
+            <p>For more interest, you can visit &#169; <a href="https://www.dicoding.com/">Dicoding Academy</a> page</p>
+        </footer>
+        <script src="assets/aside.js"></script>
+        <script src="assets/quote.js"></script>
+    </body>
+</html>
