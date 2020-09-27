@@ -1,0 +1,25 @@
+#quotegenerator {
+    background-color: teal;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #quotegenerator button {
+    background-color: rgb(54, 83, 83);
+    color: white;
+    font-size: medium;
+  }
+  
+  #quoteDisplay {
+    color: white;
+    font-size: x-large;
+    font-weight: lighter;
+  }
+  
+  #authorDisplay {
+    color: rgb(29, 197, 155);
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 30px;
+  };

@@ -1,0 +1,68 @@
+@media screen and (max-width: 1000px) {
+    .photo img {
+        width: 120px;
+      }
+    
+    .skill{
+        margin: 5px;
+        padding: 5px;
+        font-size: small;
+    }
+    #certificate ul li ul li {
+        color: black;
+        font-weight: normal;
+            font-size: small;
+    }
+
+    aside {
+        padding-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  * {
+    font-size: xx-small;
+  }
+
+  .photo img {
+    width: 80px;
+  }
+
+  .flex-container-column {
+    padding: 5px;
+  }
+
+  .skill {
+    margin: 5px;
+    padding: 2px;
+    font-size: xx-small;
+  }
+  
+  h1 {
+      font-size: large;
+  }
+
+  h2 {
+      font-size: medium;
+  }
+
+  h3 {
+      font-size: small;
+  }
+
+  h4 {
+      font-size: x-small;
+  }
+
+  #certificate p {
+      font-size: large;
+  }
+
+  aside {
+      padding-bottom: 5px;
+      display: block
+  }
+
+};
